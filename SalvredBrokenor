@@ -320,7 +320,7 @@ local BackpackTarget_Button = Instance.new("TextButton")
 local DoggyTarget_Button = Instance.new("TextButton")
 local DragTarget_Button = Instance.new("TextButton")
 local Animations_Section = Instance.new("ScrollingFrame")
-local VampireAnim_Button = Instance.new("TextButton")
+local AlucinBuchonAnim_Button = Instance.new("TextButton")
 local HeroAnim_Button = Instance.new("TextButton")
 local ZombieClassicAnim_Button = Instance.new("TextButton")
 local MageAnim_Button = Instance.new("TextButton")
@@ -1362,20 +1362,20 @@ Animations_Section.Visible = false
 Animations_Section.CanvasSize = UDim2.new(0, 0, 1.6, 0)
 Animations_Section.ScrollBarThickness = 5
 
-VampireAnim_Button.Name = "VampireAnim_Button"
-VampireAnim_Button.Parent = Animations_Section
-VampireAnim_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-VampireAnim_Button.BackgroundTransparency = 0.500
-VampireAnim_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-VampireAnim_Button.BorderSizePixel = 0
-VampireAnim_Button.Position = UDim2.new(0, 25, 0, 25)
-VampireAnim_Button.Size = UDim2.new(0, 150, 0, 30)
-VampireAnim_Button.Font = Enum.Font.Oswald
-VampireAnim_Button.Text = "AlucinBuchon"
-VampireAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-VampireAnim_Button.TextScaled = true
-VampireAnim_Button.TextSize = 14.000
-VampireAnim_Button.TextWrapped = true
+AlucinBuchonAnim_Button.Name = "AlucinBuchonAnim_Button"
+AlucinBuchonAnim_Button.Parent = Animations_Section
+AlucinBuchonAnim_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+AlucinBuchonAnim_Button.BackgroundTransparency = 0.500
+AlucinBuchonAnim_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AlucinBuchonAnim_Button.BorderSizePixel = 0
+AlucinBuchonAnim_Button.Position = UDim2.new(0, 25, 0, 25)
+AlucinBuchonAnim_Button.Size = UDim2.new(0, 150, 0, 30)
+AlucinBuchonAnim_Button.Font = Enum.Font.Oswald
+AlucinBuchonAnim_Button.Text = "AlucinBuchon"
+AlucinBuchonAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+AlucinBuchonAnim_Button.TextScaled = true
+AlucinBuchonAnim_Button.TextSize = 14.000
+AlucinBuchonAnim_Button.TextWrapped = true
 
 HeroAnim_Button.Name = "HeroAnim_Button"
 HeroAnim_Button.Parent = Animations_Section
@@ -2089,7 +2089,7 @@ CreateClicker(PushTarget_Button)
 CreateClicker(WhitelistTarget_Button)
 CreateClicker(TeleportTarget_Button)
 
-CreateClicker(VampireAnim_Button)
+CreateClicker(AlucinBuchonAnim_Button)
 CreateClicker(HeroAnim_Button)
 CreateClicker(ZombieClassicAnim_Button)
 CreateClicker(MageAnim_Button)
@@ -2982,7 +2982,7 @@ end)
 
 --ANIMATIONS
 
-VampireAnim_Button.MouseButton1Click:Connect(function()
+AlucinBuchonAnim_Button.MouseButton1Click:Connect(function()
 	local Animate = plr.Character.Animate
 	Animate.Disabled = true
 	StopAnim()
