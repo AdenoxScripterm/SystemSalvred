@@ -320,7 +320,8 @@ local BackpackTarget_Button = Instance.new("TextButton")
 local DoggyTarget_Button = Instance.new("TextButton")
 local DragTarget_Button = Instance.new("TextButton")
 local Animations_Section = Instance.new("ScrollingFrame")
-local AlucinBuchonAnim_Button = Instance.new("TextButton")
+local VampireAnim_Button = Instance.new("TextButton")
+local IdkAnim_Button = Instance.new("TextButton")
 local HeroAnim_Button = Instance.new("TextButton")
 local ZombieClassicAnim_Button = Instance.new("TextButton")
 local MageAnim_Button = Instance.new("TextButton")
@@ -412,7 +413,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "____/SalvredBrokenor\\___"
+TitleBarLabel.Text = "SystemSalvred"
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
@@ -1362,20 +1363,20 @@ Animations_Section.Visible = false
 Animations_Section.CanvasSize = UDim2.new(0, 0, 1.6, 0)
 Animations_Section.ScrollBarThickness = 5
 
-AlucinBuchonAnim_Button.Name = "AlucinBuchonAnim_Button"
-AlucinBuchonAnim_Button.Parent = Animations_Section
-AlucinBuchonAnim_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-AlucinBuchonAnim_Button.BackgroundTransparency = 0.500
-AlucinBuchonAnim_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AlucinBuchonAnim_Button.BorderSizePixel = 0
-AlucinBuchonAnim_Button.Position = UDim2.new(0, 25, 0, 25)
-AlucinBuchonAnim_Button.Size = UDim2.new(0, 150, 0, 30)
-AlucinBuchonAnim_Button.Font = Enum.Font.Oswald
-AlucinBuchonAnim_Button.Text = "AlucinBuchon"
-AlucinBuchonAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-AlucinBuchonAnim_Button.TextScaled = true
-AlucinBuchonAnim_Button.TextSize = 14.000
-AlucinBuchonAnim_Button.TextWrapped = true
+VampireAnim_Button.Name = "VampireAnim_Button"
+VampireAnim_Button.Parent = Animations_Section
+VampireAnim_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+VampireAnim_Button.BackgroundTransparency = 0.500
+VampireAnim_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VampireAnim_Button.BorderSizePixel = 0
+VampireAnim_Button.Position = UDim2.new(0, 25, 0, 25)
+VampireAnim_Button.Size = UDim2.new(0, 150, 0, 30)
+VampireAnim_Button.Font = Enum.Font.Oswald
+VampireAnim_Button.Text = "Vampire"
+VampireAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+VampireAnim_Button.TextScaled = true
+VampireAnim_Button.TextSize = 14.000
+VampireAnim_Button.TextWrapped = true
 
 HeroAnim_Button.Name = "HeroAnim_Button"
 HeroAnim_Button.Parent = Animations_Section
@@ -1677,6 +1678,21 @@ ZombieFEAnim_Button.TextScaled = true
 ZombieFEAnim_Button.TextSize = 14.000
 ZombieFEAnim_Button.TextWrapped = true
 
+IdkAnim_Button.Name = "IdkAnim_Button"
+IdkAnim_Button.Parent = Animations_Section
+IdkAnim_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+IdkAnim_Button.BackgroundTransparency = 0.500
+IdkAnim_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IdkAnim_Button.BorderSizePixel = 0
+IdkAnim_Button.Position = UDim2.new(0, 210, 0, 525)
+IdkAnim_Button.Size = UDim2.new(0, 150, 0, 30)
+IdkAnim_Button.Font = Enum.Font.Oswald
+IdkAnim_Button.Text = "Idk"
+IdkAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+IdkAnim_Button.TextScaled = true
+IdkAnim_Button.TextSize = 14.000
+IdkAnim_Button.TextWrapped = true
+
 Misc_Section.Name = "Misc_Section"
 Misc_Section.Parent = Background
 Misc_Section.Active = true
@@ -1877,7 +1893,7 @@ ChatBox_Input.BorderColor3 = Color3.fromRGB(0, 255, 255)
 ChatBox_Input.Position = UDim2.new(0, 25, 0, 325)
 ChatBox_Input.Size = UDim2.new(0, 335, 0, 50)
 ChatBox_Input.Font = Enum.Font.Oswald
-ChatBox_Input.PlaceholderText = "Chat bypass [You won't get banned for your messages]"
+ChatBox_Input.PlaceholderText = "Chat bypass [Not Working Dont Use.]"
 ChatBox_Input.Text = ""
 ChatBox_Input.TextColor3 = Color3.fromRGB(0, 255, 255)
 ChatBox_Input.TextSize = 14.000
@@ -1906,7 +1922,7 @@ Credits_Label.BorderSizePixel = 0
 Credits_Label.Position = UDim2.new(0, 25, 0, 150)
 Credits_Label.Size = UDim2.new(0, 350, 0, 150)
 Credits_Label.Font = Enum.Font.SourceSans
-Credits_Label.Text = "Made by: MalwareHUB \nDiscord: system_calix\nVersion: "..version
+Credits_Label.Text = "Edited By Salvred \nDiscord: system_calix\nVersion: "..version
 Credits_Label.TextColor3 = Color3.fromRGB(0, 255, 255)
 Credits_Label.TextSize = 24.000
 Credits_Label.TextWrapped = true
@@ -2089,7 +2105,8 @@ CreateClicker(PushTarget_Button)
 CreateClicker(WhitelistTarget_Button)
 CreateClicker(TeleportTarget_Button)
 
-CreateClicker(AlucinBuchonAnim_Button)
+CreateClicker(VampireAnim_Button)
+CreateClicker(IdkAnim_Button)
 CreateClicker(HeroAnim_Button)
 CreateClicker(ZombieClassicAnim_Button)
 CreateClicker(MageAnim_Button)
@@ -2567,12 +2584,12 @@ end)
 
 SaveCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = GetRoot(plr).Position
-	SendNotify("System Broken","Checkpoint saved.",5)
+	SendNotify("SystemSalvred","Checkpoint saved.",5)
 end)
 
 ClearCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = nil
-	SendNotify("System Broken","Checkpoint cleared.",5)
+	SendNotify("SystemSalvred","Checkpoint cleared.",5)
 end)
 
 local flying = true
@@ -2705,7 +2722,7 @@ ClickTargetTool_Button.MouseButton1Click:Connect(function()
 	GetTargetTool.Name = "ClickTarget"
 	GetTargetTool.RequiresHandle = false
 	GetTargetTool.TextureId = "rbxassetid://2716591855"
-	GetTargetTool.ToolTip = "Select Target"
+	GetTargetTool.ToolTip = "Press Player Target"
 
 	local function ActivateTool()
 		local root = GetRoot(plr)
@@ -2982,7 +2999,7 @@ end)
 
 --ANIMATIONS
 
-AlucinBuchonAnim_Button.MouseButton1Click:Connect(function()
+VampireAnim_Button.MouseButton1Click:Connect(function()
 	local Animate = plr.Character.Animate
 	Animate.Disabled = true
 	StopAnim()
@@ -3298,6 +3315,21 @@ ZombieFEAnim_Button.MouseButton1Click:Connect(function()
 	Animate.Disabled = false
 end)
 
+IdkAnim_Button.MouseButton1Click:Connect(function()
+	local Animate = plr.Character.Animate
+	Animate.Disabled = false
+	StopAnim()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=16744209868"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=16744209868"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=16744219182"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=16744214662"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=16744212581"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=16744204409"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=16744207822"
+	plr.Character.Humanoid:ChangeState(3)
+	Animate.Disabled = false
+end)
+
 --MISC
 
 AntiFling_Button.MouseButton1Click:Connect(function()
@@ -3579,18 +3611,19 @@ task.spawn(function()
 
 			if (plr.Name ~= original_name) or (plr.DisplayName ~= original_display) or (plr.UserId ~= plr.CharacterAppearanceId) then
 				SysBroker:Destroy()
-				SendNotify("System Broken","An unexpected error occurred, re-joining...")
+				SendNotify("SystemSystemSalvred","An unexpected error occurred, re-joining...")
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 			if (date_1 ~= original_date) and (date_2 ~= original_date) and (date_3 ~= original_date) then
 				SysBroker:Destroy()
-				SendNotify("System Broken","An unexpected error occurred, re-joining...")
+				SendNotify("SystemSalvred","An unexpected error occurred, re-joining...")
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
 	end
 end)
 
-SendNotify("System Broken","Gui developed by MalwareHub - Discord in your clipboard",10)
-SendNotify("System Broken","HappyNewYear",10)
+SendNotify("SystemSalvred","GuiBySalvred - Discord from SS In your clipboard",10)
+SendNotify("SystemSalvred","Hello",10)
+setclipboard("https://discord.gg/RkhpySwNR9")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
