@@ -3316,7 +3316,7 @@ ZombieFEAnim_Button.MouseButton1Click:Connect(function()
 end)
 
 IdkAnim_Button.MouseButton1Click:Connect(function()
-	-- Define the animation IDs for the Adidas Sports Animation Pack
+	 -- Define the animation IDs for the Adidas Sports Animation Pack
 local animations = {
     idle = "rbxassetid://18537376492",    -- Primary idle animation
     idleAlt = "rbxassetid://18537371272", -- Alternate idle animation
@@ -3397,6 +3397,7 @@ end
 replaceAnimations()
 ensureAnimationsLoop()
 debugSwimIdle()
+
 
 --MISC
 
