@@ -546,7 +546,7 @@ Game_Section.Position = UDim2.new(0, 105, 0, 30)
 Game_Section.Size = UDim2.new(0, 395, 0, 320)
 Game_Section.Visible = false
 Game_Section.CanvasSize = UDim2.new(0, 0, 1.85, 0)
-Game_Section.ScrollBarThickness = 5
+Game_Section.ScrollBarThickness = 10
 
 AntiRagdoll_Button.Name = "AntiRagdoll_Button"
 AntiRagdoll_Button.Parent = Game_Section
@@ -904,7 +904,7 @@ Home_Section.BorderSizePixel = 0
 Home_Section.Position = UDim2.new(0, 105, 0, 30)
 Home_Section.Size = UDim2.new(0, 395, 0, 320)
 Home_Section.CanvasSize = UDim2.new(0, 0, 0, 0)
-Home_Section.ScrollBarThickness = 5
+Home_Section.ScrollBarThickness = 10
 
 Profile_Image.Name = "Profile_Image"
 Profile_Image.Parent = Home_Section
@@ -957,7 +957,7 @@ Character_Section.Position = UDim2.new(0, 105, 0, 30)
 Character_Section.Size = UDim2.new(0, 395, 0, 320)
 Character_Section.Visible = false
 Character_Section.CanvasSize = UDim2.new(0, 0, 1, 0)
-Character_Section.ScrollBarThickness = 5
+Character_Section.ScrollBarThickness = 10
 
 WalkSpeed_Button.Name = "WalkSpeed_Button"
 WalkSpeed_Button.Parent = Character_Section
@@ -1120,7 +1120,7 @@ Target_Section.Position = UDim2.new(0, 105, 0, 30)
 Target_Section.Size = UDim2.new(0, 395, 0, 320)
 Target_Section.Visible = false
 Target_Section.CanvasSize = UDim2.new(0, 0, 1.25, 0)
-Target_Section.ScrollBarThickness = 5
+Target_Section.ScrollBarThickness = 10
 
 TargetImage.Name = "TargetImage"
 TargetImage.Parent = Target_Section
@@ -1362,7 +1362,7 @@ Animations_Section.Position = UDim2.new(0, 105, 0, 30)
 Animations_Section.Size = UDim2.new(0, 395, 0, 320)
 Animations_Section.Visible = false
 Animations_Section.CanvasSize = UDim2.new(0, 0, 1.6, 0)
-Animations_Section.ScrollBarThickness = 8
+Animations_Section.ScrollBarThickness = 900
 
 VampireAnim_Button.Name = "VampireAnim_Button"
 VampireAnim_Button.Parent = Animations_Section
@@ -1696,11 +1696,11 @@ IdkAnim_Button.TextWrapped = true
 
 BoldAnim_Button.Name = "BoldAnim_Button"
 BoldAnim_Button.Parent = Animations_Section
-BoldAnim_Button.BackgroundColor3 = Color3.fromRGB(255, -78, -11)
+BoldAnim_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
 BoldAnim_Button.BackgroundTransparency = 0.500
 BoldAnim_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BoldAnim_Button.BorderSizePixel = 0
-BoldAnim_Button.Position = UDim2.new(0, 370, 0, 575)
+BoldAnim_Button.Position = UDim2.new(0, 210, 0, 575)
 BoldAnim_Button.Size = UDim2.new(0, 150, 0, 30)
 BoldAnim_Button.Font = Enum.Font.Oswald
 BoldAnim_Button.Text = "Bold"
@@ -1720,7 +1720,7 @@ Misc_Section.Position = UDim2.new(0, 105, 0, 30)
 Misc_Section.Size = UDim2.new(0, 395, 0, 320)
 Misc_Section.Visible = false
 Misc_Section.CanvasSize = UDim2.new(0, 0, 1.1, 0)
-Misc_Section.ScrollBarThickness = 5
+Misc_Section.ScrollBarThickness = 10
 
 AntiFling_Button.Name = "AntiFling_Button"
 AntiFling_Button.Parent = Misc_Section
@@ -1928,7 +1928,7 @@ Credits_Section.Position = UDim2.new(0, 105, 0, 30)
 Credits_Section.Size = UDim2.new(0, 395, 0, 320)
 Credits_Section.Visible = false
 Credits_Section.CanvasSize = UDim2.new(0, 0, 0.8, 0)
-Credits_Section.ScrollBarThickness = 5
+Credits_Section.ScrollBarThickness = 10
 
 Credits_Label.Name = "Credits_Label"
 Credits_Label.Parent = Credits_Section
